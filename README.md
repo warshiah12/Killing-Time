@@ -12,7 +12,7 @@ int main()
 {
 		cout << "How much money do you have? " << endl; 
 		cin >> money;
-		cout << money << " AED " << endl;
+		cout << "You have " << money << " AED " << endl;
 		if (money > 5)  //if money is greater than 5 then the if statement will be executed, if not then else will be executed
 		{
 			cout << "Buy a coffee from a nearby cafe." << endl;
